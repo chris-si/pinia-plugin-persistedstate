@@ -75,6 +75,7 @@
     "@vitest/coverage-c8": "^0.22.1",
     "@vitest/ui": "^0.22.1",
     "bumpp": "^8.2.1",
+    "cookie-universal": "^2.2.2",
     "eslint": "8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
