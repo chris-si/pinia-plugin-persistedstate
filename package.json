@@ -36,6 +36,10 @@
       "require": "./dist/index.js"
     },
     "./*": "./*",
+    "./drivers/cookie-universal": {
+      "import": "./dist/drivers/cookie-universal.mjs",
+      "require": "./dist/drivers/cookie-universal.js"
+    },
     "./nuxt": {
       "import": "./dist/nuxt.mjs",
       "require": "./dist/nuxt.js"
@@ -47,8 +51,8 @@
   },
   "typesVersions": {
     "*": {
-      "nuxt": [
-        "./dist/nuxt.d.ts"
+      "drivers/cookie-universal": [
+        "./dist/drivers/cookie-universal.d.ts"
       ],
       "quasar": [
         "./dist/quasar.d.ts"

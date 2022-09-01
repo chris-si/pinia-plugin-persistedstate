@@ -7,8 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@pinia/nuxt": "^0.3.1",
-    "nuxt": "3.0.0-rc.6",
-    "pinia-plugin-persistedstate": "^2.0.1"
+    "@pinia/nuxt": "^0.4.1",
+    "cookie-universal": "^2.2.2",
+    "nuxt": "3.0.0-rc.8",
+    "pinia-plugin-persistedstate": "^2.1.1"
   }
 }
